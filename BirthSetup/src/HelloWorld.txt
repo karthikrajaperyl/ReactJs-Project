@@ -1,0 +1,12 @@
+import React from 'react';
+const HelloWorld =()=>
+{
+ function sayHello()
+ {
+  alert(Hello World);
+ }
+return(
+ <button onclick={sayHello}>Click Me</button>
+);
+};
+export default HelloWorld; 
